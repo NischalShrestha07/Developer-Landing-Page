@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.hero_section {
+    background: url('developer.png');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero_container {
+    color: white;
+    max-width: 900px;
+    padding-top: 64px;
+    padding-left: 60px;
+    margin: 0 auto;
+
+}
+
+.large-text {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.quote {
+    width: 100vw;
+    background: black;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.quote p {
+    padding: 12px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.quote span {
+    font-weight: bold;
+    font-size: 45px;
+}
