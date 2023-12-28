@@ -20,13 +20,24 @@ body {
     background-repeat: no-repeat;
 }
 
-.hero_container {
+.text_container {
     color: white;
     max-width: 900px;
     padding-top: 64px;
     padding-left: 60px;
     margin: 0 auto;
 
+}
+
+.text_container span {
+    color: greenyellow;
+
+}
+
+.text_container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: red;
 }
 
 .large-text {
@@ -54,4 +65,87 @@ body {
 .quote span {
     font-weight: bold;
     font-size: 45px;
+}
+
+.work {
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 12px;
+
+}
+
+.card {
+    text-align: center;
+    padding: 15px;
+    margin: 18px;
+    border: 3px solid black;
+    border-radius: 12px;
+    background: rgb(171, 183, 171);
+    box-shadow: 3px 5px 5px red;
+    transition: 0.2s ease-in-out;
+}
+
+.card img-container {
+    background-position: center;
+    width: 50px;
+}
+
+.card card-container {
+    padding: 10px;
+    margin: 12px 15px;
+
+}
+
+.card-container p {
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.card:hover {
+    /* zooms the screen when hover */
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
+.bottom_section {
+    display: flex;
+}
+
+.contact {
+    background: #515603;
+}
+
+.about {
+    background: #8c3c15;
+}
+
+.contact,
+.about {
+    border: 3px solid red;
+    margin: 5px;
+    /* height: 100px; */
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+    color: rgb(7, 231, 89);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    color: rgb(7, 231, 89);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
